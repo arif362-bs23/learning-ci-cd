@@ -1,8 +1,6 @@
 name: CI/CD Pipeline for test environment
 on:
   workflow_dispatch:
-    branches:
-      - dev
 
 jobs:
   manual-workflow:
