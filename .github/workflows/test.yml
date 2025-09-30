@@ -1,0 +1,11 @@
+name: CI/CD Pipeline for test environment
+on:
+  workflow_dispatch:
+
+jobs:
+  manual-workflow:
+    runs-on: ubuntu-latest
+
+    steps:  
+      - name: first
+        run: echo "This is the first workflow"
