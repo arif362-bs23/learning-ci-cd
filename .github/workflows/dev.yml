@@ -1,8 +1,5 @@
 name: CI/CD Pipeline
-on:
-  push:
-    branches:
-      - dev
+on: [push]
 
 jobs:
   first-workflow:
