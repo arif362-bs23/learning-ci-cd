@@ -7,5 +7,5 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:  
-      - name: first
-        run: echo "This is the first workflow"
+      - name: first manual
+        run: echo "This is the first manual workflow"
