@@ -1,0 +1,13 @@
+name: CI/CD Pipeline
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  first-workflow:
+    runs-on: ubuntu-latest
+
+    steps:  
+      - name: first
+        run: echo "This is the first workflow"
